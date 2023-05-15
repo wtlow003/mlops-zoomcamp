@@ -126,4 +126,4 @@ docker run hello-world
 
 ## Poetry 
 
-Instead of using `anaconda` to manage our environments, I opted to use [poetry]([Introduction | Documentation | Poetry - Python dependency management and packaging made easy (python-poetry.org)](https://python-poetry.org/docs/)) to handle all my dependencies throughout the course.
+Instead of using `anaconda` to manage our environments, I opted to use [poetry](https://python-poetry.org/docs/) to handle all my dependencies throughout the course.
