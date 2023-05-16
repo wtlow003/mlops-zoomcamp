@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mlops-zoomcamp"
+version = "0.1.0"
+description = ""
+authors = ["jensenlwt"]
+readme = "README.md"
+packages = [{include = "mlops_zoomcamp"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^2.0.1"
+pyarrow = "^12.0.0"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+scikit-learn = "^1.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
